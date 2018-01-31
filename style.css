@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	background-color: #81ecec;
+	color: black;
+}
+
+.App {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+.AppWrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	min-width: 300px;
+	min-height: 300px;
+	background-color: white;
+	box-shadow: 10px 20px 60px grey;
+}
+
+img {
+	width: 25%;
+}
+
+.BasicInfo {
+	margin-bottom: 1em;
+	padding: 1.5em;
+}
+
+.SpecificInfo {
+	margin-top: 1em;
+	padding: 1.5em;
+}
+
+.Temp {
+	display: inline;
+}
+.Buttons {
+	padding-left: 1em;
+}
+
+.Buttons a {
+	color: black;
+}
+
+.Buttons a:hover {
+	text-decoration: none;
+	color: red;
+	transition: .3s ease-out;
+}
+
+.Description {
+	text-align: center
+}
+
+.Refresh {
+	border: none;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	background: none;
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+}
+
+.Refresh:hover {
+	color: red;
+	transition: .3s ease-out;
+}
